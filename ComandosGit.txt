@@ -1,0 +1,136 @@
+
+
+Israel Alcázar
+@ialcazar
+Thinking with you
+@_twy_
+
+Metodologías ágiles
+
+GIT
+
+0. Configurar nombre y email
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+1. Crear un repositorio en Git
+
+
+1.- crear la carpeta en windows
+2.- entrar dentro de la carpeta y lanzar: git init
+
+
+2. Generar un primer commit - Flujo básico
+
+git add / rm <NombreFichero> 
+git commit -m "mensaje que pueda entender un humano"
+
+
+3. Ver el estado del repositorio
+git status
+
+4. Listado de commits en el repositorio
+git log --oneline
+
+5. Deshacer un cambio de la zona de trabajo
+git checkout -- <fichero>
+
+6. Deshacer los cambios introducidos en la zona de staging
+git reset HEAD <fichero>
+
+7. Trabajo con remotos
+
+GITHUB.COM
+
+7.1. Clonación de un remoto
+git clone <url>
+
+7.2. Listar alias remotos
+
+git remote -v
+
+7.3. Subir cambios
+
+git push <nombreRemoto>
+
+7.4. Enlazar local con un remoto previamente creado
+
+git remote add <nombreAlias> <url>
+
+
+
+Flujo Básico
+
+ 1 Trabajar en WA -> 2 add / rm -> 3 commit -> 4 push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ejercicio1:
+
+1.- Crear un nuevo repo en Github sin readme
+2.- Crear un readme en local y subirlo a github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
